@@ -1,0 +1,14 @@
+name: workflow dispath sample
+
+on:
+  workflow_dispatch:
+
+jobs:
+  dispatch:
+    name: workflow_dispatch
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Hello workflow_dispatch"
+      - uses: actions/checkout@v4 
+  
+

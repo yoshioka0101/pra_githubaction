@@ -6,6 +6,6 @@ jobs:
   hello:
     runs-on: ubuntu-latest
     steps:  
-      - run echo "Hello Action"
+      - run: echo "Hello Action"
       - uses: actions/checkout@v4 
     
